@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>INBLOG</title>
+
+  <!-- Font Awesome Icons -->
+  <!--<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">木木 挺</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">首页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="post.html">博客</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">项目</a>
+          </li>
+          <!--
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">Goodbye， World！</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">玫瑰花的葬礼，埋葬在你的回忆里。<hr><h4 style="font-family: KAITI;">这个世界突然变得好安静</h4><hr></p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="index.html">探寻世界</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">引导博客</h1>
+        <p class="lead blog-description">有关Bootstrap的所有内容的新闻和公告，包括新版本和Bootstrap主题。</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">介绍我们的长期支持计划</h2>
+            <p class="blog-post-meta">2019年7月24日 by <a href="#"> @mdo和团队</a></p>
+
+            <p>今天，我们正式宣布我们的长期支持计划，这是一种有据可查的方法，旨在加强发布的稳定性和频率。作为该计划的一部分，每个主要版本的Bootstrap退役后将至少获得六个月的支持，随后六个月将进行关键错误修复和安全更新。</p>
+            <hr>
+            <p>从今天开始，Bootstrap 3将停止使用，并且将不再收到重要的安全更新。 我们发布后，<a href="#">Bootstrap 4</a>将移至长期支持，此后v4.4将不再接收新功能。您可以在GitHub上关注我们的进度。</p>
+            <blockquote>
+              <p>它将继续接收错误修复，安全更新和文档更新。Bootstrap 5正在积极开发中。 特别感谢<strong>@XhmikosR</strong>在推动我们前进方面的不懈努力。</p>
+            </blockquote>
+            <p><3，</p>
+            
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Bootstrap 3.4.1和4.3.1</h2>
+            <p class="blog-post-meta">2019年2月13日 by <a href="#"> @mdo和团队</a></p>
+
+            <p>今天，我们发布了<a href="#">Bootstrap v4.3.1和v3.4.1</a>来修补XSS漏洞CVE-2019-8331。v4.3.1中还包括对v4.3.0中添加的一些RFS（响应字体大小）mixin的小修正。 本周早些时候，开发人员报告了一个XSS问题，类似于data-targetv4.1.2和v3.4.0中修复的漏洞：data-template我们的工具提示和popover插件的属性缺少对HTML的适当XSS清理功能，可以将HTML传递给属性值。</p>
+            <blockquote>
+              <p>为了解决该问题，我们实现了一个新的JavaScript清理程序，仅允许data属性中的白名单HTML元素。您可以修改我们的清理实现以自定义HTML元素白名单，完全禁用清理，或者传递自己的清理函数（如果使用自己的库，则很有用）。但是，要获得额外的保护，就无法通过数据属性修改清理操作-<strong>您必须通过JavaScript API修改这些插件选项</strong>。 </p>
+            </blockquote>
+            <p>那些修改了默认模板的人，请阅读<em>新的v4.3 sanitizer文档或新的v3.4 sanitizer文档</em>。 鉴于此漏洞，我们还将审核我们的安全报告工作流，以确保它们是最新的。这将包括将SECURITY.md文件添加到我们的存储库中，并确保我们的私人渠道和流程是最新的并记录在团队中的步骤。</p>
+            <p>谢谢poiu报告漏洞的引导Drupal的项目和马克·卡弗从引导Drupal的项目为负责任的披露问题给我们。还要非常感谢我们团队中的@ Johann-S，@ Xhmikosr和@bardiharborow，他们对今天的发行版进行了快速周转。</p>
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Bootstrap 4.3.0</h2>
+            <p class="blog-post-meta">2019年2月11日 by <a href="#"> @mdo和团队</a></p>
+
+            <p>Bootstrap v4.3已解决了120多个合并的已关闭问题和合并的合并请求。此版本对我们的实用程序进行了改进，为继续进行v5的开发做了一些准备工作，并提供了标准的错误修复和文档更新。在上一个发行版中，我们分享了一个小预览，介绍了下一步该项目的位置。随着我们的注意力转向拥抱Hugo进行超快速文档开发，删除jQuery以使用常规JavaScript以及解决我们不断增长的代码库，这种情况在接下来的几周中将变得越来越清楚。继续阅读v4.3亮点，并很快再见v5的更多详细信息！我们添加了一些新实用程序，并弃用了一些未使用的代码。以下是v4.3中的主要更改，按新功能，改进功能，已修复和不推荐使用的功能进行了细分。</p>
+            <h3>强调</h3>
+            <ul>
+              <li>新增功能：添加了.stretched-link实用程序，可以使任何锚点成为其最接近的position: relative父级，非常适合完全可点击的卡片！</li>
+              <li>新增：添加了.text-break实用工具word-break: break-word</li>
+              <li>新增内容：已添加.rounded-sm，.rounded-lg适用于大小版border-radius。</li>
+              <li>新增内容：添加了.modal-dialog-scrollable用于在模式中滚动内容的修饰符类。</li>
+              <li>新增内容：添加了响应式.list-group-horizontal修饰符类，用于将列表组显示为水平行。</li>
+              <li>改进：通过使用null默认情况下从其他元素继承其值的变量（例如，在您自定义CSS中修改了$headings-colorwas inherit和now null之前），减少了我们编译的CSS 。</li>
+              <li>改进：徽章焦点样式现在可以background-color像我们的按钮一样进行匹配。</li>
+              <li>修正：在我们的JS插件中为hrefHTML属性沉默了错误的选择器，以避免JavaScript错误。请尝试使用有效的选择器或data-targetHTML属性/ target选项（如果有）。</li>
+              <li>修正：将 v4.2.1的更改恢复为断点和网格容器Sass映射，从而在修改这些默认变量时阻止了人员升级。</li>
+              <li>修复：恢复white-space: nowrap到.dropdown-toggle（在v4.2.1之前是all .btn），因此插入符号不会换行。</li>
+              <li>推荐使用： img-retina，invisible，float，和size混入正在使用，将在V5被删除。</li>
+            </ul>
+            <p>查看完整的<em>v4.3.0发货清单和GitHub项目</em>以获取完整详细信息。</p>
+            <p>前往v4.3.x文档以查看最新的操作。完整版本已发布到npm，并将很快出现在Bootstrap CDN和Rubygems中。</p>
+          </div><!-- /.blog-post -->
+            
+          <div class="blog-post">
+            <h2 class="blog-post-title">Bootstrap 4.2.1</h2>
+            <p class="blog-post-meta">2018年12月21日 by <a href="#"> @mdo和团队</a></p>
+            <h3>放眼世界，我们发布的Bootstrap v4.2.1具有许多新功能，错误修复和文档更新。在新功能方面，我们在转盘中提供了微调器，吐司，开关和（最终！）触摸支持。不过，那只是冰山一角。</h3>
+            <p>当心！v4.2.0被错误地发布到npm，因此我们不得不立即解决v4.2.1发行版的问题。npm i bootstrap@latest现在应该返回4.2.1。造成的不便，深表歉意！<br>自从上次发布v4.1.3以来，我们已经花了几个月的时间完成v4.2.1的工作，提交了400多次。正如上周我们的v3.4.0版本中提到的那样，我们正在努力使我们的版本与我的直接参与脱钩，以提高运输节奏。<br>预计2019年会有更多改进。继续阅读重点内容，并深入了解如何快速进入v4.3，然后进入v5（呼！）。</p>
+            <h3>什么是新的</h3><p>以下是v4.2.1中新增和更新的重点内容。</p>
+            <ul>
+              <li>新增：添加了新的微调器加载组件。</li>
+              <li>新增：添加了新的Toast组件，用于显示通知。</li>
+              <li>新增内容：添加了新的iOS样式开关（我们的自定义复选框中的修饰符类）。</li>
+              <li>新增：在我们的轮播组件中增加了触摸支持。</li>
+              <li>新增内容：已添加.font-weight-lighter和.font-weight-bolder实用程序。</li>
+              <li>新增：添加了.text-decoration-none实用程序类。</li>
+              <li>新增内容：.modal-xl为我们的模态添加了修饰符类。</li>
+              <li>新增：添加了新的负余量实用程序类（例如.mb-n3）。这些新的类不仅使您可以更好地控制常规间距需求，而且还允许您在每个断点处创建响应式网格装订线。</li>
+              <li>新增内容：现在，已验证的表单字段在:invalid和:valid字段上都有反馈图标。使用$enable-validation-icons布尔值Sass变量禁用它们（默认为true）。</li>
+              <li>新增：在我们的文档中添加了新版本页面。</li>
+              <li>新增：工具提示/注解器可与Shadow DOM一起使用。</li>
+              <li>更新：重新设计了自定义复选框和单选按钮，以显示更明显的状态。</li>
+              <li>更新： bootstrap-grid.css现在包括我们的margin和padding实用程序，可以完全控制我们的网格系统。</li>
+              <li>更新：将自动列（例如.col-auto）从更改为max-width: none，max-width: 100%以防止内容导致列溢出父级。</li>
+              <li>更新：改进了自定义选择，范围，文件输入等的呈现。</li>
+              
+            </ul>
+            <p>查看完整的v4.2.0发货清单和GitHub项目以获取完整详细信息。接下来的是v4.3，其中<em>包含一些错误修复，一些新的修饰符类和变量以及一些新的实用程序</em>。 </p>
+            <p>前往v4.2文档查看最新操作。完整版本已发布到npm，并将很快出现在Bootstrap CDN和Rubygems中。</p>
+          </div><!-- /.blog-post -->
+
+
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>下一步是什么</h4>
+            <p>我们已经计划了v4.3，因此这是我们的重点。但是，当我们在v4-dev分支机构中进行开发时，将获得我们的计划，以便<em>发布v5版本</em>。 </p>
+          </div>
+          <div class="sidebar-module">
+            <h4>升级中</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">2018年1月13日</a></li>
+              <li><a href="#">2018年2月13日</a></li>
+              <li><a href="#">2018年3月13日</a></li>
+              <li><a href="#">2018年4月13日</a></li>
+              <li><a href="#">2018年5月13日</a></li>
+              <li><a href="#">2018年6月13日</a></li>
+              <li><a href="#">2018年7月13日</a></li>
+              <li><a href="#">2018年8月13日</a></li>
+              <li><a href="#">2018年9月13日</a></li>
+              <li><a href="#">2018年10月13日</a></li>
+              <li><a href="#">2018年11月13日</a></li>
+              <li><a href="#">2018年12月13日</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Bootstrap</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">Bootstrap 3.4.0</a></li>
+              <li><a href="#">Bootstrap 4.2.1</a></li>
+              <li><a href="#">Bootstrap 4.3.0</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Bootstrap</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">Bootstrap 3.4.1和4.3.1</a></li>
+              <li><a href="#">Bootstrap 3将停止使用</a></li>
+              <li><a href="#">Bootstrap 4将移至长期支持</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+
+
+
+    <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                程序员
+              </div>
+              <div class="project-name">
+                工程师
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                格子衫
+              </div>
+              <div class="project-name">
+                双肩包
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                电影
+              </div>
+              <div class="project-name">
+                黑客帝国
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                语言
+              </div>
+              <div class="project-name">
+                P H P
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                超文本
+              </div>
+              <div class="project-name">
+                HTML
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+            <div class="portfolio-box-caption p-3">
+              <div class="project-category text-white-50">
+                热门
+              </div>
+              <div class="project-name">
+                Python
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="page-section bg-dark text-white">
+    <div class="container text-center">
+      <h2 class="mb-4">了解博客详情</h2>
+      <a class="btn btn-light btn-xl" href="post.html">Blog for Ting</a>
+    </div>
+  </section>
+
+    <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright &copy; 2019 - Ting-99 &rarr; 木木in</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
